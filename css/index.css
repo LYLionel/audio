@@ -1,0 +1,364 @@
+body {
+  background: #000; }
+
+#box {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 1278px;
+  height: 838px;
+  background: url(../img/timg.jpg) no-repeat;
+  background-size: 100% 100%; }
+
+#topbox {
+  height: 62px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4); }
+  #topbox .t1 {
+    cursor: pointer;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 70px; }
+    #topbox .t1 .iconfont {
+      float: left;
+      font-size: 32px;
+      line-height: 66px; }
+    #topbox .t1 span {
+      float: left;
+      line-height: 62px; }
+  #topbox .t2 {
+    float: left;
+    height: 100%;
+    color: #fff; }
+    #topbox .t2 i {
+      cursor: pointer;
+      line-height: 62px;
+      display: inline-block;
+      padding-right: 5px;
+      font-size: 20px; }
+  #topbox .t3 {
+    float: left;
+    margin-left: 10px;
+    width: 276px;
+    height: 100%;
+    position: relative; }
+    #topbox .t3 input {
+      padding-left: 20px;
+      width: 256px;
+      height: 28px;
+      border: none;
+      margin-top: 17px;
+      border-radius: 20px;
+      background: #999; }
+    #topbox .t3 i {
+      cursor: pointer;
+      position: absolute;
+      top: 19px;
+      right: 10px;
+      color: #ddd;
+      font-size: 20px; }
+  #topbox .t4 {
+    float: left;
+    height: 100%;
+    margin-left: 200px; }
+    #topbox .t4 img {
+      float: left;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-top: 16px; }
+    #topbox .t4 span {
+      float: left;
+      color: rgba(255, 255, 255, 0.6);
+      line-height: 62px;
+      font-size: 16px;
+      margin-left: 10px; }
+    #topbox .t4 i {
+      float: left;
+      cursor: pointer;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 30px;
+      padding-top: 14px; }
+  #topbox .t5 {
+    float: left;
+    color: #fff; }
+    #topbox .t5 i {
+      display: inline-block;
+      padding-left: 32px;
+      line-height: 62px; }
+
+#mainbox {
+  width: 100%;
+  height: 776px;
+  position: relative; }
+  #mainbox .mainleft {
+    background: rgba(255, 255, 255, 0.6);
+    float: left;
+    width: 249px;
+    overflow: hidden;
+    height: 716px;
+    margin-bottom: 60px;
+    border-right: 1px solid #e2e2e3; }
+    #mainbox .mainleft .ml_all {
+      overflow: hidden;
+      width: 100%; }
+      #mainbox .mainleft .ml_all h3 {
+        line-height: 32px;
+        font-size: 16px;
+        padding-left: 10px;
+        color: #666; }
+      #mainbox .mainleft .ml_all ul {
+        padding-left: 20px; }
+        #mainbox .mainleft .ml_all ul li {
+          font-size: 16px;
+          line-height: 36px;
+          color: #666; }
+          #mainbox .mainleft .ml_all ul li i {
+            font-size: 20px;
+            padding-right: 5px; }
+  #mainbox .main-right {
+    float: left;
+    width: 1028px;
+    height: 716px;
+    background: rgba(255, 255, 255, 0.6); }
+    #mainbox .main-right .mr_top {
+      width: 100%;
+      overflow: hidden; }
+      #mainbox .main-right .mr_top > img {
+        float: left;
+        margin: 35px; }
+      #mainbox .main-right .mr_top .mm_right {
+        width: 700px;
+        float: left;
+        margin-top: 35px; }
+        #mainbox .main-right .mr_top .mm_right h2 {
+          overflow: hidden;
+          font-size: 24px; }
+          #mainbox .main-right .mr_top .mm_right h2 span {
+            float: left; }
+          #mainbox .main-right .mr_top .mm_right h2 span:nth-child(1) {
+            margin-top: 5px;
+            font-size: 15px;
+            height: 28px;
+            width: 48px;
+            background: #3bba7d;
+            text-align: center;
+            line-height: 28px;
+            border: 1px solid #b8e4ce;
+            color: #fff;
+            margin-right: 10px; }
+          #mainbox .main-right .mr_top .mm_right h2 span:nth-child(2) {
+            margin-top: 3px; }
+        #mainbox .main-right .mr_top .mm_right .user {
+          overflow: hidden;
+          margin-top: 15px; }
+          #mainbox .main-right .mr_top .mm_right .user img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            float: left; }
+          #mainbox .main-right .mr_top .mm_right .user p {
+            float: left;
+            line-height: 40px;
+            font-size: 14px;
+            margin-left: 10px;
+            color: #222; }
+      #mainbox .main-right .mr_top .label {
+        margin: 20px;
+        margin-left: 0px;
+        overflow: hidden; }
+        #mainbox .main-right .mr_top .label li {
+          font-size: 14px;
+          margin: 0 5px;
+          padding: 5px 10px;
+          float: left;
+          border: 1px solid #EFD2CC;
+          border-radius: 5px; }
+        #mainbox .main-right .mr_top .label li:nth-child(1) i {
+          font-size: 20px;
+          float: left;
+          margin-top: 1px;
+          color: red;
+          margin-right: 3px; }
+        #mainbox .main-right .mr_top .label li:nth-child(1) span {
+          float: left; }
+      #mainbox .main-right .mr_top .add_label {
+        font-size: 16px;
+        margin: 15px;
+        margin-left: 0;
+        color: #222; }
+        #mainbox .main-right .mr_top .add_label span {
+          cursor: pointer;
+          color: #1377c4; }
+    #mainbox .main-right .mr_bottom {
+      width: 100%; }
+      #mainbox .main-right .mr_bottom .b_tab {
+        overflow: hidden;
+        margin-left: 20px; }
+        #mainbox .main-right .mr_bottom .b_tab li {
+          float: left;
+          width: 100px;
+          border: 1px solid #e7e7e7;
+          margin-left: 10px;
+          font-size: 16px;
+          text-align: center;
+          height: 36px;
+          line-height: 36px; }
+      #mainbox .main-right .mr_bottom .music {
+        width: 100%; }
+        #mainbox .main-right .mr_bottom .music li {
+          cursor: pointer;
+          height: 40px;
+          line-height: 40px;
+          font-size: 14px;
+          padding-left: 33px;
+          cursor: pointer; }
+        #mainbox .main-right .mr_bottom .music li:nth-child(odd) {
+          background: rgba(245, 245, 247, 0.5); }
+        #mainbox .main-right .mr_bottom .music li:nth-child(even) {
+          background: rgba(255, 255, 255, 0.5); }
+  #mainbox .play_box {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.6);
+    border-top: 1px solid #e2e2e3; }
+    #mainbox .play_box .p_left {
+      width: 250px;
+      padding-top: 5px;
+      height: 55px;
+      float: left; }
+      #mainbox .play_box .p_left i:nth-child(1) {
+        cursor: pointer;
+        float: left;
+        font-size: 36px;
+        line-height: 60px;
+        padding-left: 25px; }
+      #mainbox .play_box .p_left i:nth-child(2) {
+        cursor: pointer;
+        width: 50px;
+        float: left;
+        font-size: 46px;
+        line-height: 60px;
+        padding: 0 20px;
+        margin-top: -7px; }
+      #mainbox .play_box .p_left i:nth-child(3) {
+        cursor: pointer;
+        font-size: 52px;
+        width: 50px;
+        display: none;
+        float: left;
+        line-height: 60px;
+        padding: 0 20px; }
+      #mainbox .play_box .p_left i:nth-child(4) {
+        cursor: pointer;
+        float: left;
+        font-size: 36px;
+        line-height: 60px; }
+    #mainbox .play_box .p_middle {
+      padding-left: 50px;
+      height: 60px;
+      float: left;
+      position: relative; }
+      #mainbox .play_box .p_middle .bar_box {
+        cursor: pointer;
+        float: left;
+        position: relative;
+        margin-top: 27px;
+        height: 4px;
+        background: #c2c2c4;
+        border: 1px solid #dbdbdd;
+        width: 544px; }
+        #mainbox .play_box .p_middle .bar_box .bar {
+          cursor: pointer;
+          position: absolute;
+          top: -1px;
+          left: 0;
+          height: 4px;
+          width: 0px;
+          border: 1px solid #abdfc2;
+          background: #5dc78a; }
+        #mainbox .play_box .p_middle .bar_box .yd {
+          position: absolute;
+          top: -6px;
+          left: 0;
+          width: 14px;
+          height: 14px;
+          line-height: 12px;
+          border-radius: 50%;
+          background: #fff;
+          border: 1px solid #c2c2c4;
+          text-align: center; }
+          #mainbox .play_box .p_middle .bar_box .yd .yx_x {
+            display: inline-block;
+            width: 3px;
+            height: 3px;
+            vertical-align: middle;
+            background: #5dc78a; }
+          #mainbox .play_box .p_middle .bar_box .yd span {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle; }
+      #mainbox .play_box .p_middle .time {
+        position: absolute;
+        left: 5px;
+        top: 22px; }
+      #mainbox .play_box .p_middle .all_time {
+        position: absolute;
+        left: 610px;
+        top: 22px; }
+      #mainbox .play_box .p_middle .sound {
+        padding-left: 110px;
+        float: left;
+        overflow: hidden; }
+        #mainbox .play_box .p_middle .sound i {
+          float: left;
+          font-size: 26px;
+          margin-top: 17px; }
+        #mainbox .play_box .p_middle .sound .volume_box {
+          cursor: pointer;
+          float: left;
+          position: relative;
+          margin-top: 27px;
+          height: 4px;
+          background: #c2c2c4;
+          border: 1px solid #dbdbdd;
+          width: 126px; }
+          #mainbox .play_box .p_middle .sound .volume_box .volume {
+            position: absolute;
+            top: -1px;
+            left: 0;
+            height: 4px;
+            width: 124px;
+            border: 1px solid #abdfc2;
+            background: #5dc78a; }
+    #mainbox .play_box .p_right {
+      color: #222; }
+      #mainbox .play_box .p_right i {
+        display: inline-block;
+        font-size: 22px;
+        line-height: 60px;
+        margin-left: 15px; }
+      #mainbox .play_box .p_right #order {
+        display: none; }
+
+.tp20 {
+  margin-top: 20px; }
+
+.turn {
+  transform: rotate(0deg);
+  animation: zhuan 10s linear infinite; }
+
+.music_img {
+  border-radius: 50%; }
+
+@keyframes zhuan {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
